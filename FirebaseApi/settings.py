@@ -25,7 +25,7 @@ SECRET_KEY = 'zv&me=h5r6bnw=r(r)6vm0r1bo(^@ovj*peo+6e*!fs@k483*m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'basicRequest.apps.BasicrequestConfig',
     'rest_framework',
+    'pyrebase',
 ]
 
 MIDDLEWARE = [

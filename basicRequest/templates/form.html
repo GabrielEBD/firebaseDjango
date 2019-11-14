@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form class="form" method="post" enctype="multipart/form-data">
+		{% csrf_token %}
+		{{ form.non_field_errors }}
+		{{ form}}
+		<input class="submit-btn" type="submit" value="Enviar">                         
+    </form>
+</body>
+</html>
