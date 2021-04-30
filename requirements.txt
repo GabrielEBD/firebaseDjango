@@ -42,6 +42,6 @@ requests-toolbelt==0.7.0
 rsa==4.0
 six==1.13.0
 sqlparse==0.3.0
-urllib3==1.25.7
+urllib3==1.25.8
 vcversioner==2.16.0.0
 zope.interface==4.7.1
